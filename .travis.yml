@@ -1,11 +1,11 @@
 language: r
 cache: packages
 r_binary_packages:
-  - xml
+  - XML
   - gplots
   - tm
   - wordcloud
-  - rjava
+  - rJava
   - proxy
 r_github_packages:
   - hadley/devtools
