@@ -1,5 +1,9 @@
 language: r
 cache: packages
+
+before_install:
+  - tlmgr install media9
+
 r_binary_packages:
   - XML
   - gplots
